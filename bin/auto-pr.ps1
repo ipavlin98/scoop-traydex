@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "ipavlin98/scoop-traydex:main"
+    [String]$upstream = "ipavlin98/scoop-traydex:master"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
